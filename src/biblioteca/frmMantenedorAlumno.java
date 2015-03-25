@@ -172,7 +172,7 @@ private void cargarData()
       DefaultTableModel mydata=new DefaultTableModel(filas,columnas);
       this.JTable.setModel(mydata);
       this.JTable.setAutoResizeMode(JTable.AUTO_RESIZE_ALL_COLUMNS);
-      this.jtxtdireccion.setLineWrap(true);
+      //this.jtxtdireccion.setLineWrap(true);
       lector.close();
       ocn.close();
    }
